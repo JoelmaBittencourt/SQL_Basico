@@ -1,0 +1,9 @@
+USE sucos;
+
+UPDATE tbproduto SET EMBALAGEM = 'teste', PRECO_LISTA = 2.46
+WHERE PRODUTO = '544931';
+
+UPDATE tbproduto SET EMBALAGEM = 'teste'
+WHERE PRODUTO = '1078680';
+
+SELECT * FROM tbproduto;
